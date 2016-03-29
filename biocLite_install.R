@@ -1,0 +1,15 @@
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+
+biocLite("minfi")
+biocLite("minfiData")
+biocLite("wateRmelon")
+install.packages("httpuv", repos= "http://cran.us.r-project.org")
+install.packages("devtools", repos= "http://cran.us.r-project.org")
+install.packages("matrixStats", repos= "http://cran.us.r-project.org")
+install.packages("RColorBrewer", repos= "http://cran.us.r-project.org")
+
+library(devtools)
+install_github("shiny", "rstudio")
+install_github("shinyMethyl", "jfortin1")
+install_github("shinyMethylData", "jfortin1")
