@@ -1,9 +1,9 @@
 source("http://bioconductor.org/biocLite.R")
-biocLite()
+biocLite(ask=FALSE)
 
-biocLite("minfi")
-biocLite("minfiData")
-biocLite("wateRmelon")
+biocLite("minfi",ask=FALSE)
+biocLite("minfiData",ask=FALSE)
+biocLite("wateRmelon",ask=FALSE)
 install.packages("httpuv", repos= "http://cran.us.r-project.org")
 install.packages("devtools", repos= "http://cran.us.r-project.org")
 install.packages("matrixStats", repos= "http://cran.us.r-project.org")
