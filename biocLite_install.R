@@ -12,4 +12,5 @@ install.packages("devtools", repos= "http://cran.us.r-project.org")
 install.packages("matrixStats", repos= "http://cran.us.r-project.org")
 install.packages("RColorBrewer", repos= "http://cran.us.r-project.org")
 install.packages("shiny", repos= "http://cran.us.r-project.org")
-
+install.packages("rmarkdown", repos= "http://cran.us.r-project.org")
+install.packages("knitr", repos= "http://cran.us.r-project.org")
